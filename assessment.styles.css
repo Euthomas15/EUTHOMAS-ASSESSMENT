@@ -1,0 +1,416 @@
+:root{
+    --primary-color: #0f172a;
+    --text-color: #ffffff;
+    --secondary-color: #9333EA;
+    --special-text-color: #C084FC;
+    --nav-bar-color1: #00000044;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playwrite CU Guides", cursive;
+    color: var(--text-color);
+}
+
+
+.main-nav{
+    width: auto;
+    height: fit-content;
+    background-color: var(--primary-color);
+    padding: 24px 80px;
+}
+
+.links-container{
+    width: auto;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: var(--nav-bar-color1);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-links{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.logo-text{
+    font-size: 32px;
+}
+
+.login-links{
+    display: flex;
+    gap: 38px;
+}
+
+.page-btn{
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    border: 2px;
+    font-size: medium;
+}
+
+.page-btn2{
+    padding: 16px 39px;
+    border: 2px solid var(--text-color);
+    background-color: var(--primary-color);
+    font-size: medium;
+    border-radius: 8px;
+}
+
+#btn{
+    background-color: var(--nav-bar-color1);
+}
+#btn2{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+nav a{
+    padding: 12px 8px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+.main-content-section1{
+    background-color: var(--primary-color);
+    padding: 80px;
+    width: auto;
+    height: fit-content;
+}
+
+.desktop{
+    width: 1100px;
+}
+
+.main-content-div1{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.main-content-text{
+    font-size: 72px;
+}
+
+#ampersand{
+    color: var(--secondary-color);
+}
+#underline{
+    text-decoration: underline;
+    text-decoration-color: var(--special-text-color);
+    text-underline-offset: 10px;
+    text-decoration-skip-ink: none;
+}
+#overline{
+    display: inline-block;
+    border-top: 7px solid var(--special-text-color);
+    line-height: 0.5;
+    padding-left: 0px;
+}
+
+.main-content-paragraph{
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-divs{
+    margin-bottom: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-content-div2{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 80px 99px 80px;
+    align-items: center;
+}
+
+.companies-vector{
+    width: 100%;
+    height: 100px;
+}
+
+.main-content-text2{
+    font-size: 56px;
+}
+
+.main-content-div3{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 80px;
+    align-items: center;
+}
+
+.main-content-div-jr{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.main-content-div-jr-text1{
+    width: auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.main-content-div-jr-text2{
+    width: auto;
+    font-size: 42px;
+    font-weight: 800;  
+}
+
+#color-unlimited{
+    color: var(--special-text-color);
+}
+#border-idea{
+    border: 5px solid #C2410C;
+    margin-inline: 8px 0px;
+}
+
+.main-content-div-jr-para1{
+    width: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.main-content-div-jr-para2 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-size: large;
+}
+
+.main-content-div-jr-text3{
+    width: auto;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.desktop2{
+    width: 50%;
+    height: fit-content;
+}
+
+.shapes{
+    width: 375px;
+    height: 379px;
+}
+
+.main-content-div4{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 80px 200px 80px 80px;
+    align-items: center;
+}
+
+#color-cu{
+    background-color: #BE185D;
+    margin-inline: 7px 0px;
+
+}
+
+.main-content-div-jr4{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-content-div5{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 80px;
+    align-items: center;
+}
+
+.main-content-section2{
+    background-color: var(--secondary-color);
+    padding: 80px 150px;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bigapp-img{
+    width: 350px;
+    height: 750px;
+}
+
+.co-founder{
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+}
+
+.main-content-section-jr1{
+    width: 385px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.main-content-section-jr2{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-content-section3{
+    background-color: var(--text-color);
+    padding: 80px;
+    width: auto;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--nav-bar-color1);
+}
+
+#main-content-section3-idtext{
+    color: var(--primary-color);
+    font-size: 54px;
+}
+#Explore{
+    color: var(--secondary-color);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: light;
+}
+.main-content-section3-jr{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.section3-image-container{
+    display: flex;
+    gap: 24px;
+}
+
+
+.main-content-section3-design-image1{
+    width: 100%;
+    height: 290px;
+    background-image: url(assessment-logos/Horse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-content-section3-design-image2{
+    width: 100%;
+    height: 290px;
+    background-image: url(assessment-logos/celebrate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-content-section3-design-image3{
+    width: 100%;
+    height: 290px;
+    background-image: url(assessment-logos/Happy\ father.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#thinking{
+    color: #6B21A8;
+    background-color: #F3E8FF;
+    width: fit-content;
+    margin: 15px 0px 0px 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#main-content-section3-heading{
+    color: var(--primary-color);
+    text-decoration: none;
+    width: fit-content;
+    /* font-size: 14px; */
+}
+
+.section3-image-container-jr{
+    margin-top: 250px;
+}
+
+.footer{
+    width: auto;
+    height: fit-content;
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-jr{
+    padding-block: 48px;
+    border-bottom: 1px solid var(--nav-bar-color1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-jr2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 217px;
+    height: fit-content;
+}
+
+.footer-jr3{
+    width: auto;
+    padding-block: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-content-section3-heading-1{
+    color: #94A3B8;
+    font-size: 16px;
+}
